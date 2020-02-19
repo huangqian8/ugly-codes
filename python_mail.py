@@ -34,4 +34,4 @@ try:
     smtpObj.quit() 
     print("邮件发送成功")
 except smtplib.SMTPException as e:
-	print('邮件发送失败: ' + e)
+    print('邮件发送失败: ' + e)
